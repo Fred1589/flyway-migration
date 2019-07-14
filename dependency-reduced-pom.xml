@@ -3,11 +3,10 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.fb.commons</groupId>
   <artifactId>flyway-migration</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.2-SNAPSHOT</version>
   <scm>
     <connection>scm:git:https://github.com/Fred1589/flyway-migration.git</connection>
     <developerConnection>scm:git:https://github.com/Fred1589/flyway-migration.git</developerConnection>
-    <tag>1.0.0</tag>
     <url>http://github.com/Fred1589/flyway-migration</url>
   </scm>
   <build>
@@ -81,9 +80,10 @@
     </snapshotRepository>
   </distributionManagement>
   <properties>
+    <maven.compiler.target>1.8</maven.compiler.target>
     <project.scm.id>github</project.scm.id>
     <maven.compiler.source>1.8</maven.compiler.source>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.target>1.8</maven.compiler.target>
+    <maven.javadoc.skip>true</maven.javadoc.skip>
   </properties>
 </project>
